@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    gap: 24px;
+
+    padding: 12px;
+}
+header svg { 
+    height: 24px;
+    margin-right: auto;
+}
+header ion-icon {
+    font-size: 24px;
+}
