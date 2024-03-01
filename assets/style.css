@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 header{
     display: flex;
     gap: 24px;
@@ -10,4 +15,51 @@ header svg {
 }
 header ion-icon {
     font-size: 24px;
+}
+nav {
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+}
+nav button {
+    border: 0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+nav button:hover {
+    background-color: black;
+    color: white;
+}
+main {
+    padding: 0 12px;
+}
+img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+.info-canal {
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+}
+.avatar {
+    width: 32px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+
+}
+.title-canal {
+    display: grid;
+}
+.title-canal h6 {
+    font-size: 14px;
+    font-weight: 300;
+}
+.title-canal p {
+    font-size: 14px;
+    opacity: 0.6;
 }
